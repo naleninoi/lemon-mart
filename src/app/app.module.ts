@@ -10,11 +10,14 @@ import { InventoryModule } from './inventory/inventory.module';
 import { PosModule } from './pos/pos.module';
 import { UserModule } from './user/user.module';
 import { HomeComponent } from './home/home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
